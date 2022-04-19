@@ -33,16 +33,6 @@ $(window).on("scroll",()=>{
         }, 200 * j)
 		  })
     }
-
-    // Skils
-    if(startScroll > 1610){
-      $('.skill-per').each(function(){
-        var $this = $(this)
-        var per = $this.attr('per')
-        $this.css("width", per)
-      })
-    }
-
     // Buttom form
     if(startScroll > 2900){
       $(".buttom").addClass("ani-buttom")
