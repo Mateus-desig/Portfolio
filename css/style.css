@@ -512,69 +512,19 @@ header .menu ul li a:hover::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.all-skils .background-style .skills .skills-box {
-  width: 100%;
-  max-width: 600px;
-  padding: 0 20px;
+.all-skils .background-style .skills .skills-box .skill {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  border-radius: 50%;
 }
 
-.all-skils .background-style .skills .skills-box .skill .skill-name {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 20px 0;
-}
-
-.all-skils .background-style .skills .skills-box .skill .skill-bar {
-  height: 20px;
-  background-color: #cacaca;
-  -webkit-box-shadow: 2px 0px 5px 2px #3C4043;
-          box-shadow: 2px 0px 5px 2px #3C4043;
-  border-radius: 8px;
-}
-
-.all-skils .background-style .skills .skills-box .skill .skill-per {
-  height: 20px;
-  background-color: #15ff00ef;
-  -webkit-box-shadow: 2px 0px 5px 2px #35962cef;
-          box-shadow: 2px 0px 5px 2px #35962cef;
-  border-radius: 8px;
-  width: 0%;
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
-  position: relative;
-}
-
-.all-skils .background-style .skills .skills-box .skill .skill-per::before {
-  content: attr(per);
-  position: absolute;
-  padding: 4px 6px;
-  background-color: #000;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 4px;
-  top: -35px;
-  right: 0;
-  -webkit-transform: translateX(50%);
-          transform: translateX(50%);
-}
-
-.all-skils .background-style .skills .skills-box .skill .skill-per::after {
-  content: '';
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color: #000;
-  top: -18px;
-  right: 0;
-  -webkit-transform: translateX(50%) rotate(45deg);
-          transform: translateX(50%) rotate(45deg);
-  border-radius: 2px;
+.all-skils .background-style .skills .skills-box .skill img {
+  width: 80px;
 }
 
 .contact {
