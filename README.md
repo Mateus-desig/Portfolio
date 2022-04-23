@@ -1,4 +1,4 @@
 # Portifolio
-Meu Portifolio DEV
+Meu Portfolio DEV
 
 ACESS: https://mateus-desig.github.io/Portifolio/
